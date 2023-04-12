@@ -121,3 +121,56 @@ html, body {
 #footer {
     text-align: center;
 }
+
+@media screen and (max-width: 650px) {
+
+    .introHeader {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+
+    .meta {
+        max-height: 250px;
+        margin-top: 30px;
+    }
+
+    .features {
+        grid-template-columns: [first] auto [second] auto;
+        grid-template-rows: 180px 180px 180px; /* Three rows with automatic height */
+        grid-row-gap: 120px;
+        margin-bottom: 100px;
+    }
+
+    .mediawiki {
+        grid-column: first;
+    }
+
+    .support {
+        grid-column: second;
+    }
+
+    .community {
+        grid-column: first;
+        grid-row: 2;
+    }
+
+    .customise {
+        grid-row: 2;
+        grid-column: second;
+    }
+
+    .premium {
+        grid-row: 3;
+        grid-column: first;
+    }
+
+    .opensource {
+        grid-row: 3;
+        grid-column: second;
+    }
+}
+
+}
