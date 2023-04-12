@@ -1,0 +1,123 @@
+html, body {
+    margin: 0;
+}
+
+.basicSection {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+#wfheader {
+    height: 50px;
+    width: 100%;
+    background: #003965;
+}
+
+.logo {
+    width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+.introHeader {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 35px [left] 50% 35px [right] 50% 35px;
+}
+
+.introHeading {
+    grid-column: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.introImages {
+    grid-column: right;
+}
+
+.introImages .meta {
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#meta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    z-index: -1;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: [first] auto [second] auto [third] auto;
+    grid-template-rows: 180px 180px; /* Two rows with automatic height */
+    gap: 50px; /* Buffer of 50px between rows */
+}
+
+.mediawiki {
+    grid-column: first;
+}
+
+.featuresGrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.featuresGridInfo {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.support {
+    grid-column: second;
+}
+
+.community {
+    grid-column: third;
+}
+
+.customise {
+    grid-row: 2;
+    grid-column: first;
+}
+
+.premium {
+    grid-row: 2;
+    grid-column: second;
+}
+
+.opensource {
+    grid-row: 2;
+    grid-column: third;
+}
+
+.featuresHeader {
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer {
+    margin-top: 80px;
+    bottom: 0;
+    background: #003965;
+}
+
+#footer {
+    text-align: center;
+}
