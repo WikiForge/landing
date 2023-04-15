@@ -123,7 +123,6 @@ html, body {
 }
 
 @media screen and (max-width: 650px) {
-
     .introHeader {
         display: flex;
         flex-direction: column;
@@ -171,6 +170,4 @@ html, body {
         grid-row: 3;
         grid-column: second;
     }
-}
-
 }
