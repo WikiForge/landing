@@ -25,7 +25,11 @@ function generatePricingTable(plans) {
 
 		const price = document.createElement('div');
 		price.className = 'price';
-		price.textContent = `$${plan.price}`;
+		if (Number.isInteger(plan.price) || Number(plan.price) === parseFloat(plan.price)) {
+			price.textContent = `$${plan.price}`;
+		} else {
+			price.textContent = plan.price;
+		}
 
 		const duration = document.createElement('div');
 		duration.className = 'duration';
