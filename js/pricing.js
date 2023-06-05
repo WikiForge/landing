@@ -30,6 +30,7 @@ function generatePricingTable(plans) {
 		} else {
 			price.textContent = plan.price;
 		}
+
 		let duration = '';
 		if (plan.duration) {
 			duration = document.createElement('div');
@@ -42,7 +43,17 @@ function generatePricingTable(plans) {
 		featuresList.className = 'features';
 		plan.features.forEach( feature => {
 			const featureItem = document.createElement('li');
-			featureItem.textContent = feature;
+			const featureText = document.createElement('span');
+			featureText.textContent = feature;
+			featureItem.appendChild(featureText);
+
+			if (plan.extraCosts && feature in plan.extraCosts) {
+				const extraCost = document.createElement('span');
+				extraCost.textContent = plan.extraCosts[feature];
+				extraCost.className = 'extraCost';
+				featureItem.appendChild(extraCost);
+			}
+
 			featuresList.appendChild(featureItem);
 		} );
 
