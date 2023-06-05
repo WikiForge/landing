@@ -52,7 +52,7 @@ function generatePricingTable(plans) {
 
 		pricingCard.appendChild(title);
 		pricingCard.appendChild(price);
-		pricingCard.appendChild(duration ?? '');
+		pricingCard.appendChild(plan.duration ? duration : '');
 		pricingCard.appendChild(featuresList);
 		pricingCard.appendChild(infoText);
 
