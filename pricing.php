@@ -74,7 +74,7 @@
 		<div class="section">
 			<div class="pricing container">
 				<h1>WikiForge Pricing</h1>
-				<div id="pricingTable"></div>
+				<div id="pricingTable"><noscript>Sorry, this pricing pages requires JavaScript to be enabled in your browser.</noscript></div>
 			</div>
 		</div>
 
