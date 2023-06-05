@@ -40,6 +40,7 @@
 					</div>
 					<div class="column align-right">
 						<div class="row items-center">
+							<a href="/" class="u mr-lg">Homepage</a>
 							<a href="https://meta.wikiforge.net/wiki/Special:UserLogin" class="u mr-lg">Log in</a>
 							<a href="https://meta.wikiforge.net/wiki/Special:CreateAccount" class="button main w-button">
 								Sign up
