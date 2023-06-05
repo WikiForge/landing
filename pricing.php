@@ -39,9 +39,54 @@
 		<script type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"WebPage","headline":"WikiForge","url":"/","thumbnailUrl":"","dateCreated":"","creator":[],"keywords":[]}]</script>
 	</head>
 	<body>
-		<div class="container">
-			<h1>WikiForge Pricing</h1>
-			<div id="pricingTable"></div>
+		<header class="nav">
+			<div class="container">
+				<div class="row items-center mb-lg">
+					<div class="column align-left">
+						<a href="#" aria-current="page" class="w-inline-block w--current">
+							<div class="logo">
+								<img src="/images/WikiForge_Wordmark.svg" width="100" alt="WikiForge Wordmark" />
+							</div>
+						</a>
+					</div>
+					<div class="column align-right">
+						<div class="row items-center">
+							<a href="https://meta.wikiforge.net/wiki/Special:UserLogin" class="u mr-lg">Log in</a>
+							<a href="https://meta.wikiforge.net/wiki/Special:CreateAccount" class="button main w-button">
+								Sign up
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon mr-md-n ml-md">
+									<line x1="5" y1="12" x2="19" y2="12"></line>
+									<polyline points="12 5 19 12 12 19"></polyline>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="section overflow-hidden">
+			<div class="container mt-3xl mb-3xl">
+				<div class="row">
+					<div class="column align-center">
+						<h1 class="test-giga text-center">
+							Unleash the power of knowledge-sharing with WikiForge.
+						</h1>
+						<p class="text-lg text-center max-w-lg">
+							WikiForge is the ultimate wiki farm that lets you create, manage, and collaborate on wikis effortlessly. Whether you're an individual or an organization, WikiForge has everything you need to share your knowledge with the world. Join us today!
+						</p>
+						<a href="https://meta.wikiforge.net/wiki/Special:RequestPremiumWiki" class="button xl main mt-lg w-button">
+							Start Your Wiki Journey Today
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="circle"></div>
+		</div>
+		<div class="section">
+			<div class="container">
+				<h1>WikiForge Pricing</h1>
+				<div id="pricingTable"></div>
+			</div>
 		</div>
 
 		<script src="js/pricing.js"></script>
