@@ -39,7 +39,7 @@
 					</div>
 					<div class="column align-right">
 						<div class="row items-center">
-							<a href="pricing.php" class="mr-lg">Pricing</a>
+							<a href="pricing.php" class="u mr-lg">Pricing</a>
 							<a href="https://meta.wikiforge.net/wiki/Special:UserLogin" class="u mr-lg">Log in</a>
 							<a href="https://meta.wikiforge.net/wiki/Special:CreateAccount" class="button main w-button">
 								Sign up
