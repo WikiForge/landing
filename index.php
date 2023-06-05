@@ -44,12 +44,13 @@
 					<div class="column align-left">
 						<a href="#" aria-current="page" class="w-inline-block w--current">
 							<div class="logo">
-								<img src="/images/WikiForge_Wordmark.svg" width="100" alt="WikiForge Wordmark" />
+								<img src="images/WikiForge_Wordmark.svg" width="100" alt="WikiForge Wordmark" />
 							</div>
 						</a>
 					</div>
 					<div class="column align-right">
 						<div class="row items-center">
+							<a href="pricing.php" class="u mr-lg">Pricing</a>
 							<a href="https://meta.wikiforge.net/wiki/Special:UserLogin" class="u mr-lg">Log in</a>
 							<a href="https://meta.wikiforge.net/wiki/Special:CreateAccount" class="button main w-button">
 								Sign up
@@ -57,9 +58,6 @@
 									<line x1="5" y1="12" x2="19" y2="12"></line>
 									<polyline points="12 5 19 12 12 19"></polyline>
 								</svg>
-							</a>
-							<a href="pricing.php" class="button main w-button">
-								Pricing
 							</a>
 						</div>
 					</div>
