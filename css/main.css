@@ -346,7 +346,7 @@ a {
   color: #ffffff;
   padding: 15px 30px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 18px !important;
   text-decoration: none;
 }
 
