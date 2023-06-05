@@ -26,7 +26,7 @@ function generatePricingTable(plans) {
 		const price = document.createElement('div');
 		price.className = 'price';
 		if (Number.isInteger(plan.price) || Number(plan.price) === parseFloat(plan.price)) {
-			price.textContent = `$${plan.price}`;
+			price.textContent = `Starting at $${plan.price}`;
 		} else {
 			price.textContent = plan.price;
 		}
