@@ -71,11 +71,11 @@
 			<div class="circle"></div>
 		</div>
 		<div class="section">
-			<img src="/images/product-shot.png" srcset="
-				/images/product-shot-p-500.png 500w,
-				/images/product-shot-p-800.png 800w,
-				/images/product-shot-p-1080.png 1080w,
-				/images/product-shot.png 1521w
+			<img src="images/product-shot.png" srcset="
+				images/product-shot-p-500.png 500w,
+				images/product-shot-p-800.png 800w,
+				images/product-shot-p-1080.png 1080w,
+				images/product-shot.png 1521w
 			" sizes="(max-width: 479px) 93vw, (max-width: 767px) 94vw, 720px"
 				alt="Product Shot" class="product-shot" />
 		</div>
@@ -105,7 +105,7 @@
 						</p>
 					</div>
 					<div class="column align-center p-2xl">
-						<img src="/images/marginalia-1.png" alt="Marginalia 1" class="feature-card" />
+						<img src="images/marginalia-1.png" alt="Marginalia 1" class="feature-card" />
 					</div>
 				</div>
 				<div class="row reverse items-center v-t">
@@ -118,7 +118,7 @@
 						</p>
 					</div>
 					<div class="column align-center p-2xl">
-						<img src="/images/marginalia-2.png" alt="Marginalia 2" class="feature-card" />
+						<img src="images/marginalia-2.png" alt="Marginalia 2" class="feature-card" />
 					</div>
 				</div>
 				<div class="row items-center v-t">
@@ -131,7 +131,7 @@
 						</p>
 					</div>
 					<div class="column align-center p-2xl">
-						<img src="/images/marginalia-3.png" alt="Marginalia 3" class="feature-card" />
+						<img src="images/marginalia-3.png" alt="Marginalia 3" class="feature-card" />
 					</div>
 				</div>
 			</div>
