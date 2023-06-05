@@ -31,9 +31,8 @@ function generatePricingTable(plans) {
 			price.textContent = plan.price;
 		}
 
-		let duration = '';
 		if (plan.duration) {
-			duration = document.createElement('div');
+			const duration = document.createElement('div');
 			duration.className = 'duration';
 			duration.textContent = `per ${plan.duration}`;
 			pricingCard.appendChild(duration);
@@ -53,7 +52,11 @@ function generatePricingTable(plans) {
 
 		pricingCard.appendChild(title);
 		pricingCard.appendChild(price);
-		pricingCard.appendChild(duration);
+
+		if (plan.duration) {
+			pricingCard.appendChild(duration);
+		}
+
 		pricingCard.appendChild(featuresList);
 		pricingCard.appendChild(infoText);
 
