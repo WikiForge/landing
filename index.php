@@ -39,7 +39,6 @@
 					</div>
 					<div class="column align-right">
 						<div class="row items-center">
-							<a href="pricing.php" class="u mr-lg">Pricing</a>
 							<a href="https://meta.wikiforge.net/wiki/Special:UserLogin" class="u mr-lg">Log in</a>
 							<a href="https://meta.wikiforge.net/wiki/Special:CreateAccount" class="button main w-button">
 								Sign up
@@ -65,6 +64,9 @@
 						</p>
 						<a href="https://meta.wikiforge.net/wiki/Special:RequestPremiumWiki" class="button xl main mt-lg w-button">
 							Start Your Wiki Journey Today
+						</a>
+						<a href="pricing.php" class="button xl main mt-lg w-button">
+							See Pricing
 						</a>
 					</div>
 				</div>
