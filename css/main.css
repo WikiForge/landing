@@ -59,6 +59,8 @@ h6 {
 }
 
 a {
+  -webkit-transition: all 500ms cubic-bezier(.19, 1, .22, 1);
+  transition: all 500ms cubic-bezier(.19, 1, .22, 1);
   color: #364fc7;
   font-weight: 600;
   text-decoration: none;
