@@ -343,19 +343,16 @@ a {
 
 .pricing-button {
   background-color: #ff6b6b;
-	color: #ffffff;
-	padding: 15px 30px;
-  border-radius: 4px;
-	font-size: 18px;
-	text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .pricing-button:hover {
-	background-color: #ff5252;
+  background-color: #ff5252;
 }
 
 .pricing-link {
-	margin-left: 10px;
+  margin-left: 10px;
 }
 
 .icon {
