@@ -58,6 +58,9 @@
 									<polyline points="12 5 19 12 12 19"></polyline>
 								</svg>
 							</a>
+							<a href="pricing.php" class="button main w-button">
+								Pricing
+							</a>
 						</div>
 					</div>
 				</div>
