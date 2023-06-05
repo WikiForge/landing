@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 async function fetchPlans() {
     try {
-        const response = await fetch("../plans.json");
+        const response = await fetch("plans.json");
         const plans = await response.json();
         generatePricingTable(plans);
     } catch (error) {
