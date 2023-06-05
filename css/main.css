@@ -344,6 +344,9 @@ a {
 .pricing-button {
   background-color: #ff6b6b;
   color: #ffffff;
+	padding: 15px 30px;
+  border-radius: 4px;
+	font-size: 18px;
   text-decoration: none;
 }
 
