@@ -1,37 +1,39 @@
 [
-    {
-        "name": "Basic",
-        "price": 9.99,
-        "duration": "month",
-        "features": [
-            "Feature 1",
-            "Feature 2",
-            "Feature 3"
-        ],
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-        "name": "Dedicated",
-        "price": 28.99,
-        "duration": "month",
-        "features": [
-            "Feature 1",
-            "Feature 2",
-            "Feature 3",
-            "Feature 4"
-        ],
-        "info": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-        "name": "Enterprise",
-        "price": "Contact us",
-        "features": [
-            "Feature 1",
-            "Feature 2",
-            "Feature 3",
-            "Feature 4",
-            "Feature 5"
-        ],
-        "info": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    }
+	{
+		"name": "Basic",
+		"price": 9.99,
+		"duration": "month",
+		"features": [
+			"10 GB file storage (+$2/month for every 10 GB after that)",
+			"Custom domain support",
+			"CirrusSearch/ElasticSearch support",
+			"SSO (Single Sign-On) integration support",
+			"ManageWiki extension: Effortlessly manage popular settings, group rights, namespaces, and hundreds of extensions and skins directly on your wiki."
+		],
+		"info": "Get started with our basic plan that offers essential features for your premium wiki."
+	},
+	{
+		"name": "Dedicated",
+		"price": 28.99,
+		"duration": "month",
+		"features": [
+			"50 GB file storage (+$2/month for every 10 GB after that)",
+			"Custom domain support",
+			"CirrusSearch/ElasticSearch support",
+			"SSO (Single Sign-On) integration support",
+			"ManageWiki extension: Effortlessly manage popular settings, group rights, namespaces, and hundreds of extensions and skins directly on your wiki.",
+			"Dedicated MediaWiki servers (2vCPU / 2GB RAM) (or extra servers in a load-balanced cluster for an extra $10/month/server)"
+		],
+		"info": "Upgrade to our dedicated plan for advanced capabilities and dedicated resources. Host your wiki on dedicated MediaWiki servers."
+	},
+	{
+		"name": "Enterprise",
+		"price": "Contact us",
+		"features": [
+			"All features from the dedicated plan",
+			"Customize resources to your needs",
+			"Custom extensions (if technically feasible)"
+		],
+		"info": "Tailored solutions for enterprise customers with specific requirements and scalability needs."
+	}
 ]
