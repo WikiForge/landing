@@ -50,12 +50,17 @@
 
 @media (min-width: 768px) {
     .pricing.container {
-        display: flex;
-        justify-content: center;
+        text-align: center;
     }
 
     .pricingCard {
         width: 300px;
-        margin: 0 20px;
+        margin: 0 16px 20px;
+    }
+
+    #pricingTable {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
