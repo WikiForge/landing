@@ -169,7 +169,6 @@
 				</div>
 			</div>
 		</div>
-		<script src="js/webflow.js" type="text/javascript"></script>
 		<script src="js/pricing.js"></script>
 	</body>
 </html>
