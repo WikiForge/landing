@@ -30,9 +30,9 @@ function generatePricingTable(plans) {
 		} else {
 			price.textContent = plan.price;
 		}
-
+		let duration = '';
 		if (plan.duration) {
-			const duration = document.createElement('div');
+			duration = document.createElement('div');
 			duration.className = 'duration';
 			duration.textContent = `per ${plan.duration}`;
 			pricingCard.appendChild(duration);
@@ -53,7 +53,7 @@ function generatePricingTable(plans) {
 		pricingCard.appendChild(title);
 		pricingCard.appendChild(price);
 
-		if (plan.duration) {
+		if (duration) {
 			pricingCard.appendChild(duration);
 		}
 
