@@ -63,7 +63,7 @@
 							WikiForge is the ultimate wiki farm that lets you create, manage, and collaborate on wikis effortlessly. Whether you're an individual or an organization, WikiForge has everything you need to share your knowledge with the world. Join us today!
 						</p>
 						<a href="pricing.php" class="pricing-button pricing-link xl mt-lg w-button">
-							See Pricing
+							See Pricing and Features
 						</a>
 						<a href="https://meta.wikiforge.net/wiki/Special:RequestPremiumWiki" class="button xl main mt-lg w-button">
 							Start Your Wiki Journey Today
