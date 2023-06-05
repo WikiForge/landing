@@ -29,7 +29,7 @@
 	</head>
 	<body>
 		<header class="nav">
-			<div class="pricing container">
+			<div class="container">
 				<div class="row items-center mb-lg">
 					<div class="column align-left">
 						<a href="#" aria-current="page" class="w-inline-block w--current">
@@ -72,7 +72,7 @@
 			<div class="circle"></div>
 		</div>
 		<div class="section">
-			<div class="container">
+			<div class="pricing container">
 				<h1>WikiForge Pricing</h1>
 				<div id="pricingTable"></div>
 			</div>
