@@ -29,7 +29,7 @@
 	</head>
 	<body>
 		<header class="nav">
-			<div class="container">
+			<div class="pricing container">
 				<div class="row items-center mb-lg">
 					<div class="column align-left">
 						<a href="#" aria-current="page" class="w-inline-block w--current">
