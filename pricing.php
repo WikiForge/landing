@@ -19,9 +19,9 @@
 		<meta name="apple-mobile-web-app-title" content="WikiForge" />
 		<link rel="manifest" href="/manifest.json" />
 		<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" />
-		<link href="/css/normalize.css" rel="stylesheet" type="text/css" />
-		<link href="/css/webflow.css" rel="stylesheet" type="text/css" />
-		<link href="/css/main.css" rel="stylesheet" type="text/css" />
+		<link href="css/normalize.css" rel="stylesheet" type="text/css" />
+		<link href="css/webflow.css" rel="stylesheet" type="text/css" />
+		<link href="css/main.css" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" type="text/css" href="css/pricing.css">
 		<!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
 		<script type="text/javascript">
