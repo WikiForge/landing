@@ -1,4 +1,4 @@
-.container {
+.pricing.container {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
@@ -49,7 +49,7 @@
 }
 
 @media (min-width: 768px) {
-    .container {
+    .pricing.container {
         display: flex;
         justify-content: center;
     }
