@@ -8,10 +8,10 @@
 		<meta name="twitter:description" content="Create, manage, and collaborate with ease on wikis, powered by WikiForge – the ultimate wiki farm for all your knowledge-sharing needs. Try our premium wiki hosting today." />
 		<meta property="og:description" content="Create, manage, and collaborate with ease on wikis, powered by WikiForge – the ultimate wiki farm for all your knowledge-sharing needs. Try our premium wiki hosting today." />
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="WikiForge" />
-		<meta property="og:site_name" content="WikiForge" />
+		<meta property="og:title" content="WikiForge Pricing" />
+		<meta property="og:site_name" content="WikiForge Pricing" />
 		<meta name="twitter:card" content="summary" />
-		<meta name="twitter:title" content="WikiForge" />
+		<meta name="twitter:title" content="WikiForge Pricing" />
 		<meta name="twitter:site" content="@WikiForge" />
 		<meta name="mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-capable" content="yes" />
