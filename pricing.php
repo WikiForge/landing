@@ -74,7 +74,7 @@
 		<div class="section">
 			<div class="container">
 				<h1>WikiForge Pricing</h1>
-				<div id="pricingTable" class="mb-lg"></div>
+				<div id="pricingTable"></div>
 			</div>
 		</div>
 
