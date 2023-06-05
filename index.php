@@ -19,9 +19,9 @@
 		<meta name="apple-mobile-web-app-title" content="WikiForge" />
 		<link rel="manifest" href="/manifest.json" />
 		<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" />
-		<link href="css/normalize.css" rel="stylesheet" type="text/css" />
-		<link href="css/webflow.css" rel="stylesheet" type="text/css" />
-		<link href="css/main.css" rel="stylesheet" type="text/css" />
+		<link href="/css/normalize.css" rel="stylesheet" type="text/css" />
+		<link href="/css/webflow.css" rel="stylesheet" type="text/css" />
+		<link href="/css/main.css" rel="stylesheet" type="text/css" />
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 		<script type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"WebPage","headline":"WikiForge","url":"/","thumbnailUrl":"","dateCreated":"","creator":[],"keywords":[]}]</script>
@@ -33,7 +33,7 @@
 					<div class="column align-left">
 						<a href="#" aria-current="page" class="w-inline-block w--current">
 							<div class="logo">
-								<img src="images/WikiForge_Wordmark.svg" width="100" alt="WikiForge Wordmark" />
+								<img src="/images/WikiForge_Wordmark.svg" width="100" alt="WikiForge Wordmark" />
 							</div>
 						</a>
 					</div>
@@ -65,7 +65,7 @@
 						<a href="https://meta.wikiforge.net/wiki/Special:RequestPremiumWiki" class="button xl main mt-lg w-button">
 							Start Your Wiki Journey Today
 						</a>
-						<a href="pricing.php" class="button xl main pricing-button mt-lg w-button">
+						<a href="/pricing.php" class="button xl main pricing-button mt-lg w-button">
 							See Pricing and Features
 						</a>
 					</div>
@@ -74,11 +74,11 @@
 			<div class="circle"></div>
 		</div>
 		<div class="section">
-			<img src="images/product-shot.png" srcset="
-				images/product-shot-p-500.png 500w,
-				images/product-shot-p-800.png 800w,
-				images/product-shot-p-1080.png 1080w,
-				images/product-shot.png 1521w
+			<img src="/images/product-shot.png" srcset="
+				/images/product-shot-p-500.png 500w,
+				/images/product-shot-p-800.png 800w,
+				/images/product-shot-p-1080.png 1080w,
+				/images/product-shot.png 1521w
 			" sizes="(max-width: 479px) 93vw, (max-width: 767px) 94vw, 720px"
 				alt="Product Shot" class="product-shot" />
 		</div>
@@ -108,7 +108,7 @@
 						</p>
 					</div>
 					<div class="column align-center p-2xl">
-						<img src="images/marginalia-1.png" alt="Marginalia 1" class="feature-card" />
+						<img src="/images/marginalia-1.png" alt="Marginalia 1" class="feature-card" />
 					</div>
 				</div>
 				<div class="row reverse items-center v-t">
@@ -121,7 +121,7 @@
 						</p>
 					</div>
 					<div class="column align-center p-2xl">
-						<img src="images/marginalia-2.png" alt="Marginalia 2" class="feature-card" />
+						<img src="/images/marginalia-2.png" alt="Marginalia 2" class="feature-card" />
 					</div>
 				</div>
 				<div class="row items-center v-t">
@@ -134,7 +134,7 @@
 						</p>
 					</div>
 					<div class="column align-center p-2xl">
-						<img src="images/marginalia-3.png" alt="Marginalia 3" class="feature-card" />
+						<img src="/images/marginalia-3.png" alt="Marginalia 3" class="feature-card" />
 					</div>
 				</div>
 			</div>
