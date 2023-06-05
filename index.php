@@ -22,17 +22,6 @@
 		<link href="css/normalize.css" rel="stylesheet" type="text/css" />
 		<link href="css/webflow.css" rel="stylesheet" type="text/css" />
 		<link href="css/main.css" rel="stylesheet" type="text/css" />
-		<!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-		<script type="text/javascript">
-			!(function (o, c) {
-				var n = c.documentElement,
-					t = " w-mod-";
-				(n.className += t + "js"),
-				("ontouchstart" in o ||
-					(o.DocumentTouch && c instanceof DocumentTouch)) &&
-				(n.className += t + "touch");
-			})(window, document);
-		</script>
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 		<script type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"WebPage","headline":"WikiForge","url":"/","thumbnailUrl":"","dateCreated":"","creator":[],"keywords":[]}]</script>
@@ -253,7 +242,5 @@
 				</div>
 			</div>
 		</div>
-		<script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5ea1b995c6b4c10f74406a08" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-		<script src="/js/webflow.js" type="text/javascript"></script>
 	</body>
 </html>
