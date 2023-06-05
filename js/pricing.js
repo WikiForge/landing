@@ -17,7 +17,7 @@ function generatePricingTable(plans) {
 
     plans.forEach(plan => {
         const pricingCard = document.createElement("div");
-        pricingCard.className = "pricingCard";
+        pricingCard.className = "pricingCard mb-lg";
 
         const title = document.createElement("div");
         title.className = "title";
