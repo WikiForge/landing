@@ -39,10 +39,6 @@ function generatePricingTable(plans) {
 			pricingCard.appendChild(duration);
 		}
 
-		const infoText = document.createElement('div');
-		infoText.className = 'infoText';
-		infoText.textContent = plan.info;
-
 		const featuresList = document.createElement('ul');
 		featuresList.className = 'features';
 		plan.features.forEach( feature => {
@@ -61,6 +57,10 @@ function generatePricingTable(plans) {
 			featuresList.appendChild(featureItem);
 		} );
 
+		const infoText = document.createElement('div');
+		infoText.className = 'infoText';
+		infoText.textContent = plan.info;
+
 		pricingCard.appendChild(title);
 		pricingCard.appendChild(price);
 
@@ -68,8 +68,8 @@ function generatePricingTable(plans) {
 			pricingCard.appendChild(duration);
 		}
 
-		pricingCard.appendChild(infoText);
 		pricingCard.appendChild(featuresList);
+		pricingCard.appendChild(infoText);
 
 		pricingTable.appendChild(pricingCard);
     } );
