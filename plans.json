@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Basic",
+        "price": 9.99,
+        "duration": "month",
+        "features": [
+            "Feature 1",
+            "Feature 2",
+            "Feature 3"
+        ],
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "name": "Dedicated",
+        "price": 28.99,
+        "duration": "month",
+        "features": [
+            "Feature 1",
+            "Feature 2",
+            "Feature 3",
+            "Feature 4"
+        ],
+        "info": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "name": "Enterprise",
+        "price": "Contact us for pricing",
+        "duration": "month",
+        "features": [
+            "Feature 1",
+            "Feature 2",
+            "Feature 3",
+            "Feature 4",
+            "Feature 5"
+        ],
+        "info": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+]
