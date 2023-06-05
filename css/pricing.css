@@ -27,6 +27,13 @@
     margin-bottom: 15px;
 }
 
+.pricingCard .extraCost {
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+    display: block;
+}
+
 .pricingCard .duration {
     font-size: 18px;
     color: #999;
