@@ -24,8 +24,7 @@
     },
     {
         "name": "Enterprise",
-        "price": "Contact us for pricing",
-        "duration": "month",
+        "price": "Contact us",
         "features": [
             "Feature 1",
             "Feature 2",
