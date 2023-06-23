@@ -2,11 +2,20 @@ document.addEventListener( 'DOMContentLoaded', function () {
 	fetchPlans();
 } );
 
+/* Default to monthly pricing */
+let selectedTab = 'monthly';
+
 async function fetchPlans() {
 	try {
 		const response = await fetch('plans.json');
 		const plans = await response.json();
 		generatePricingTable(plans);
+
+		/* Initially toggle the tab based on selectedTab variable */
+		toggleTab();
+
+		/* Add event listeners to the tabs */
+		addTabEventListeners();
 	} catch (error) {
 		console.error('Error fetching plans:', error);
 	}
@@ -14,6 +23,9 @@ async function fetchPlans() {
 
 function generatePricingTable(plans) {
 	const pricingTable = document.getElementById('pricingTable');
+
+	/* Clear existing pricing table */
+	pricingTable.innerHTML = '';
 
 	plans.forEach( plan => {
 		const pricingCard = document.createElement('div');
@@ -25,17 +37,13 @@ function generatePricingTable(plans) {
 
 		const price = document.createElement('div');
 		price.className = 'price';
-		if (Number.isInteger(plan.price) || Number(plan.price) === parseFloat(plan.price)) {
-			price.textContent = `Starting at $${plan.price}`;
-		} else {
-			price.textContent = plan.price;
-		}
+		price.textContent = getPriceText(plan.price);
 
 		let duration = '';
-		if (plan.duration) {
+		if (typeof plan.price === 'object') {
 			duration = document.createElement('div');
 			duration.className = 'duration';
-			duration.textContent = `per ${plan.duration}`;
+			duration.textContent = selectedTab === 'monthly' ? 'per month' : 'per year';
 			pricingCard.appendChild(duration);
 		}
 
@@ -72,5 +80,56 @@ function generatePricingTable(plans) {
 		pricingCard.appendChild(infoText);
 
 		pricingTable.appendChild(pricingCard);
-    } );
+	} );
+}
+
+function toggleTab() {
+	const monthlyTab = document.getElementById('monthlyTab');
+	const yearlyTab = document.getElementById('yearlyTab');
+
+	if (selectedTab === 'monthly') {
+		monthlyTab.classList.add('active');
+		yearlyTab.classList.remove('active');
+	} else {
+		monthlyTab.classList.remove('active');
+		yearlyTab.classList.add('active');
+	}
+}
+
+function addTabEventListeners() {
+	const monthlyTab = document.getElementById('monthlyTab');
+	const yearlyTab = document.getElementById('yearlyTab');
+
+	monthlyTab.addEventListener( 'click', function () {
+		selectedTab = 'monthly';
+		toggleTab();
+		updatePrices();
+	} );
+
+	yearlyTab.addEventListener( 'click', function () {
+		selectedTab = 'yearly';
+		toggleTab();
+		updatePrices();
+	} );
+}
+
+function updatePrices() {
+	const pricingCards = document.querySelectorAll('.pricingCard');
+	pricingCards.forEach( card => {
+		const priceElement = card.querySelector('.price');
+		const plan = card.dataset.plan;
+
+		if (plan) {
+			const parsedPlan = JSON.parse(plan);
+			priceElement.textContent = getPriceText(parsedPlan.price);
+		}
+	} );
+}
+
+function getPriceText(price) {
+	if (typeof price === 'object') {
+		return selectedTab === 'monthly' ? `Starting at $${price.monthly}` : `Starting at $${price.yearly}`;
+	} else {
+		return price;
+	}
 }
