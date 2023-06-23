@@ -15,7 +15,7 @@ async function fetchPlans() {
 		toggleTab();
 
 		/* Add event listeners to the tabs */
-		addTabEventListeners();
+		addTabEventListeners(plans);
 	} catch (error) {
 		console.error('Error fetching plans:', error);
 	}
@@ -96,24 +96,24 @@ function toggleTab() {
 	}
 }
 
-function addTabEventListeners() {
+function addTabEventListeners(plans) {
 	const monthlyTab = document.getElementById('monthlyTab');
 	const yearlyTab = document.getElementById('yearlyTab');
 
 	monthlyTab.addEventListener( 'click', function () {
 		selectedTab = 'monthly';
 		toggleTab();
-		updatePrices();
+		updatePrices(plans);
 	} );
 
 	yearlyTab.addEventListener( 'click', function () {
 		selectedTab = 'yearly';
 		toggleTab();
-		updatePrices();
+		updatePrices(plans);
 	} );
 }
 
-function updatePrices() {
+function updatePrices(plans) {
 	const pricingCards = document.querySelectorAll('.pricingCard');
 	pricingCards.forEach( card => {
 		const priceElement = card.querySelector('.price');
