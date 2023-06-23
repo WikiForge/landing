@@ -116,11 +116,11 @@ function addTabEventListeners(plans) {
 
 function updatePrices(plans) {
 	const pricingCards = document.querySelectorAll('.pricingCard');
-	pricingCards.forEach( card => {
+	pricingCards.forEach( (card, index) => {
 		const priceElement = card.querySelector('.price');
 		const durationElement = card.querySelector('.duration');
 		const extraCostElements = card.querySelectorAll('.extraCost');
-		const planIndex = Array.from(pricingCards).indexOf(card);
+		const planIndex = index;
 
 		if (planIndex >= 0) {
 			const plan = plans[planIndex];
@@ -130,8 +130,8 @@ function updatePrices(plans) {
 				durationElement.textContent = selectedTab === 'monthly' ? 'per month' : 'per year';
 			}
 
-			extraCostElements.forEach( (extraCostElement, index) => {
-				const feature = plan.features[index];
+			extraCostElements.forEach( (extraCostElement, extraCostIndex) => {
+				const feature = plan.features[extraCostIndex];
 				const extraCostValue = plan.extraCosts && feature in plan.extraCosts ? plan.extraCosts[feature] : null;
 				extraCostElement.textContent = getExtraCostText(extraCostValue);
 			} );
