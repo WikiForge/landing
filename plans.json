@@ -13,7 +13,10 @@
 			"ManageWiki extension: Effortlessly manage popular settings, group rights, namespaces, and hundreds of extensions and skins directly on your wiki."
 		],
 		"extraCosts": {
-			"10 GB file storage": "($2 per 10 GB after that)"
+			"10 GB file storage": {
+				"monthly": "($2 per month per 10 GB after that)",
+				"yearly": "($20 per year per 10 GB after that)"
+			}
 		},
 		"info": "Get started with our basic plan that offers essential features for your premium wiki."
 	},
@@ -32,8 +35,14 @@
 			"Dedicated MediaWiki servers (2vCPU / 1GB RAM)"
 		],
 		"extraCosts": {
-			"50 GB file storage": "($2 per 10 GB after that)",
-			"Dedicated MediaWiki servers (2vCPU / 1GB RAM)": "($10/month/server for extra servers in a load-balanced cluster)"
+			"50 GB file storage": {
+				"monthly": "($2 per 50 GB after that)",
+				"yearly": "($20 per 50 GB after that)"
+			},
+			"Dedicated MediaWiki servers (2vCPU / 1GB RAM)": {
+				"monthly": "($10/month/server for extra servers in a load-balanced cluster)",
+				"yearly": "($100/year/server for extra servers in a load-balanced cluster)"
+			}
 		},
 		"info": "Upgrade to our dedicated plan for advanced capabilities and dedicated resources. Host your wiki on dedicated MediaWiki servers."
 	},
