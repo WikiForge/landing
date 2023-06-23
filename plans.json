@@ -1,8 +1,10 @@
 [
 	{
 		"name": "Basic",
-		"price": 9.99,
-		"duration": "month",
+		"price": {
+			"monthly": 9.99,
+			"yearly": 99.99
+		},
 		"features": [
 			"10 GB file storage",
 			"Custom domain support",
@@ -17,8 +19,10 @@
 	},
 	{
 		"name": "Dedicated",
-		"price": 28.99,
-		"duration": "month",
+		"price": {
+			"monthly": 28.99,
+			"yearly": 289.99
+		},
 		"features": [
 			"50 GB file storage",
 			"Custom domain support",
