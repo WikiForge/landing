@@ -94,6 +94,8 @@ function toggleTab() {
 		monthlyTab.classList.remove('active');
 		yearlyTab.classList.add('active');
 	}
+
+	updatePrices();
 }
 
 function addTabEventListeners() {
