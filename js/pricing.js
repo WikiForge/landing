@@ -119,7 +119,7 @@ function updatePrices(plans) {
 	pricingCards.forEach( (card, index) => {
 		const priceElement = card.querySelector('.price');
 		const durationElement = card.querySelector('.duration');
-		const extraCostElements = card.querySelectorAll('.extraCost');
+		const featureElements = card.querySelectorAll('.features li');
 		const planIndex = index;
 
 		if (planIndex >= 0) {
@@ -130,10 +130,17 @@ function updatePrices(plans) {
 				durationElement.textContent = selectedTab === 'monthly' ? 'per month' : 'per year';
 			}
 
-			extraCostElements.forEach( (extraCostElement, extraCostIndex) => {
-				const feature = plan.features[extraCostIndex];
-				const extraCostValue = plan.extraCosts && feature in plan.extraCosts ? plan.extraCosts[feature] : null;
-				extraCostElement.textContent = getExtraCostText(extraCostValue);
+			featureElements.forEach( (featureElement, featureIndex) => {
+				const featureTextElement = featureElement.querySelector('span');
+				const feature = plan.features[featureIndex];
+				const extraCostElement = featureElement.querySelector('.extraCost');
+				const extraCostValue = plan.extraCosts && feature in plan.extraCosts ? plan.extraCosts[feature][selectedTab] : null;
+
+				featureTextElement.textContent = feature;
+
+				if (extraCostElement) {
+					extraCostElement.textContent = getExtraCostText(extraCostValue);
+				}
 			} );
 		}
 	} );
