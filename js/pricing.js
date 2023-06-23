@@ -94,8 +94,6 @@ function toggleTab() {
 		monthlyTab.classList.remove('active');
 		yearlyTab.classList.add('active');
 	}
-
-	updatePrices();
 }
 
 function addTabEventListeners() {
@@ -119,11 +117,16 @@ function updatePrices() {
 	const pricingCards = document.querySelectorAll('.pricingCard');
 	pricingCards.forEach( card => {
 		const priceElement = card.querySelector('.price');
-		const plan = card.dataset.plan;
+		const durationElement = card.querySelector('.duration');
+		const planIndex = Array.from(pricingCards).indexOf(card);
 
-		if (plan) {
-			const parsedPlan = JSON.parse(plan);
-			priceElement.textContent = getPriceText(parsedPlan.price);
+		if (planIndex >= 0) {
+			const plan = plans[planIndex];
+			priceElement.textContent = getPriceText(plan.price);
+
+			if (typeof plan.price === 'object' && durationElement) {
+				durationElement.textContent = selectedTab === 'monthly' ? 'per month' : 'per year';
+			}
 		}
 	} );
 }
