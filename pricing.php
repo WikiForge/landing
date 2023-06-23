@@ -77,10 +77,10 @@
 		<div class="section">
 			<div class="pricing container">
 				<h1>WikiForge Pricing</h1>
-				<div class="tabs">
+				<!-- <div class="tabs">
 					<div class="tab" id="monthlyTab">Monthly</div>
 					<div class="tab" id="yearlyTab">Yearly</div>
-				</div>
+				</div> -->
 				<div id="pricingTable">
 					<noscript>Sorry, this pricing page requires JavaScript to be enabled in your browser. Please enable JavaScript and try again. Thank you!</noscript>
 				</div>
