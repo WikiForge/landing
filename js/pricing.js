@@ -151,6 +151,6 @@ function getExtraCostText(extraCost) {
 	if (typeof extraCost === 'object') {
 		return selectedTab === 'monthly' ? `+ $${extraCost.monthly} per month` : `+ $${extraCost.yearly} per year`;
 	} else {
-		return `+ $${extraCost}`;
+		return extraCost;
 	}
 }
