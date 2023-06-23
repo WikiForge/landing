@@ -22,10 +22,10 @@
 		<meta name="apple-mobile-web-app-title" content="WikiForge" />
 		<link rel="manifest" href="/manifest.json" />
 		<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" />
-		<link href="css/normalize.css" rel="stylesheet" type="text/css" />
-		<link href="css/webflow.css" rel="stylesheet" type="text/css" />
-		<link href="css/main.css" rel="stylesheet" type="text/css" />
-		<link href="css/pricing.css" rel="stylesheet" type="text/css" />
+		<link href="/css/normalize.css" rel="stylesheet" type="text/css" />
+		<link href="/css/webflow.css" rel="stylesheet" type="text/css" />
+		<link href="/css/main.css" rel="stylesheet" type="text/css" />
+		<link href="/css/pricing.css" rel="stylesheet" type="text/css" />
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 		<script type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"WebPage","headline":"WikiForge Pricing","url":"/","thumbnailUrl":"","dateCreated":"","creator":[],"keywords":[]}]</script>
@@ -178,6 +178,6 @@
 				</div>
 			</div>
 		</div>
-		<script src="js/pricing.js"></script>
+		<script src="/js/pricing.js"></script>
 	</body>
 </html>
