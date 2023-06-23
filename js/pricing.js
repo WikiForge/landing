@@ -57,7 +57,8 @@ function generatePricingTable(plans) {
 
 			if (plan.extraCosts && feature in plan.extraCosts) {
 				const extraCost = document.createElement('span');
-				extraCost.textContent = plan.extraCosts[feature];
+				const extraCostValue = plan.extraCosts[feature];
+				extraCost.textContent = getExtraCostText(extraCostValue);
 				extraCost.className = 'extraCost';
 				featureItem.appendChild(extraCost);
 			}
@@ -118,6 +119,7 @@ function updatePrices(plans) {
 	pricingCards.forEach( card => {
 		const priceElement = card.querySelector('.price');
 		const durationElement = card.querySelector('.duration');
+		const extraCostElements = card.querySelectorAll('.extraCost');
 		const planIndex = Array.from(pricingCards).indexOf(card);
 
 		if (planIndex >= 0) {
@@ -127,6 +129,12 @@ function updatePrices(plans) {
 			if (typeof plan.price === 'object' && durationElement) {
 				durationElement.textContent = selectedTab === 'monthly' ? 'per month' : 'per year';
 			}
+
+			extraCostElements.forEach( (extraCostElement, index) => {
+				const feature = plan.features[index];
+				const extraCostValue = plan.extraCosts && feature in plan.extraCosts ? plan.extraCosts[feature] : null;
+				extraCostElement.textContent = getExtraCostText(extraCostValue);
+			} );
 		}
 	} );
 }
@@ -136,5 +144,13 @@ function getPriceText(price) {
 		return selectedTab === 'monthly' ? `Starting at $${price.monthly}` : `Starting at $${price.yearly}`;
 	} else {
 		return price;
+	}
+}
+
+function getExtraCostText(extraCost) {
+	if (typeof extraCost === 'object') {
+		return selectedTab === 'monthly' ? `+ $${extraCost.monthly} per month` : `+ $${extraCost.yearly} per year`;
+	} else {
+		return `+ $${extraCost}`;
 	}
 }
