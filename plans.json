@@ -6,16 +6,16 @@
 			"yearly": 99.99
 		},
 		"features": [
-			"10 GB file storage",
+			"10GB file storage",
 			"Custom domain support",
 			"CirrusSearch/ElasticSearch support",
 			"SSO (Single Sign-On) integration support",
 			"ManageWiki extension: Effortlessly manage popular settings, group rights, namespaces, and hundreds of extensions and skins directly on your wiki."
 		],
 		"extraCosts": {
-			"10 GB file storage": {
-				"monthly": "($2 per month per 10 GB after that)",
-				"yearly": "($20 per year per 10 GB after that)"
+			"10GB file storage": {
+				"monthly": "($2/month/10GB after that)",
+				"yearly": "($20/year/10GB after that)"
 			}
 		},
 		"info": "Get started with our basic plan that offers essential features for your premium wiki."
@@ -27,7 +27,7 @@
 			"yearly": 289.99
 		},
 		"features": [
-			"50 GB file storage",
+			"50GB file storage",
 			"Custom domain support",
 			"CirrusSearch/ElasticSearch support",
 			"SSO (Single Sign-On) integration support",
@@ -35,9 +35,9 @@
 			"Dedicated MediaWiki servers (2vCPU / 1GB RAM)"
 		],
 		"extraCosts": {
-			"50 GB file storage": {
-				"monthly": "($2 per 50 GB after that)",
-				"yearly": "($20 per 50 GB after that)"
+			"50GB file storage": {
+				"monthly": "($2/month/50GB after that)",
+				"yearly": "($20/year/50GB after that)"
 			},
 			"Dedicated MediaWiki servers (2vCPU / 1GB RAM)": {
 				"monthly": "($10/month/server for extra servers in a load-balanced cluster)",
