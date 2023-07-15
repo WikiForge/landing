@@ -114,7 +114,7 @@
 				<div class="row reverse items-center v-t">
 					<div class="column align-left p-2xl">
 						<h2 class="max-w-lg">
-							CirrusSearch/ElasticSearch, out of the box
+							CirrusSearch (ElasticSearch), out of the box
 						</h2>
 						<p class="text-lg">
 							Use the powerful search engine that organizations like Wikimedia use in order to shift through mountains of data and text. ElasticSearch provides a seamless in-wiki search experience that the default MediaWiki search engine just can't provide.
