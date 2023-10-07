@@ -46,7 +46,7 @@
 						<div class="row items-center">
 							<a href="https://meta.wikiforge.net/wiki/Special:UserLogin" class="u mr-lg">Log in</a>
 							<a href="https://meta.wikiforge.net/wiki/Special:CreateAccount" class="button main w-button">
-								Sign up
+								Create your wiki
 								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon mr-md-n ml-md">
 									<line x1="5" y1="12" x2="19" y2="12"></line>
 									<polyline points="12 5 19 12 12 19"></polyline>
@@ -142,6 +142,19 @@
 						<img src="/images/marginalia-3.png" alt="Marginalia 3" class="feature-card" />
 					</div>
 				</div>
+				<div class="row reverse items-center v-t">
+					<div class="column align-left p-2xl">
+						<h2 class="max-w-lg">
+							Don't break the bank!
+						</h2>
+						<p class="text-lg">
+							WikiForge offers the best value in the industry. While others charge you for things like custom domains, we offer that in base plan. Come see why so many trust WikiForge!
+						</p>
+					</div>
+					<div class="column align-center p-2xl">
+						<img src="/images/marginalia-9.png" alt="Marginalia 2" class="feature-card" />
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="section main mt-2xl">
@@ -152,7 +165,7 @@
 							Unlock your team's full potential and streamline knowledge-sharing with WikiForge.
 						</h1>
 						<a href="https://meta.wikiforge.net/wiki/Special:RequestPremiumWiki" class="button xl main white mt-lg w-button">
-							Start Your Wiki Journey Today
+							Start Your Wiki Journey Today!
 						</a>
 					</div>
 				</div>
@@ -162,7 +175,7 @@
 			<div class="container mt-2xl mb-2xl">
 				<div class="row v-l">
 					<div class="column align-left">
-						<a href="mailto: info@wikiforge.net" class="u mt-lg">info@wikiforge.net</a>
+						<a href="mailto: support@wikiforge.net" class="u mt-lg">support@wikiforge.net</a>
 						<div class="row mt-lg ml-md-n">
 							<a href="https://www.facebook.com/WikiForge" target="_blank" class="p-md w-inline-block">
 								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
@@ -216,7 +229,7 @@
 					</div>
 					<div class="column align-left">
 						<h6 class="max-w-lg mb-xl footer-header">Company</h6>
-						<div>About</div>
+						<a href="https://meta.wikiforge.net/wiki/Special:MyLanguage/Help:About_WikiForge" class="mt-md">About</a>
 						<!-- None for now -->
 						<!--<a href="#" class="mt-md">Jobs</a>-->
 						<a href="https://blog.wikiforge.net" class="mt-md">Blog</a>
@@ -228,7 +241,7 @@
 					</div>
 					<div class="column align-left">
 						<h6 class="max-w-lg mb-xl footer-header">Resources</h6>
-						<a href="https://meta.wikiforge.net/wiki/Special:MyLanguage/FAQ" class="mt-md">FAQ</a>
+						<a href="https://meta.wikiforge.net/wiki/Special:MyLanguage/Help:FAQ" class="mt-md">FAQ</a>
 						<a href="https://meta.wikiforge.net/wiki/Special:MyLanguage/Help_center" class="mt-md">Help center</a>
 					</div>
 				</div>
@@ -236,7 +249,7 @@
 					<div class="row mt-xl v-l">
 						<div class="column align-left">
 							<div class="muted text-sm">
-								Except where otherwise noted, the content of this site is licensed under a Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+								WikiForge, LLC - All rights reserved
 							</div>
 						</div>
 						<div class="column align-right">
