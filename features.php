@@ -44,8 +44,10 @@
 					</div>
 					<div class="column align-right">
 						<div class="row items-center">
-							<a href="https://meta.wikiforge.net/wiki/Special:UserLogin" class="u mr-lg">Log in</a>
-							<a href="https://meta.wikiforge.net/wiki/Special:RequestPremiumWiki" class="button main w-button">
+							<a class="mr-lg">Features</a>
+							<a href="https://wikiforge.net/pricing.php" class="mr-lg">Pricing</a>
+							<a href="https://hub.wikiforge.net/wiki/Special:UserLogin" class="u mr-lg">Log in</a>
+							<a href="https://hub.wikiforge.net/wiki/Special:RequestPremiumWiki" class="button main w-button">
 								Create your wiki
 								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon mr-md-n ml-md">
 									<line x1="5" y1="12" x2="19" y2="12"></line>
@@ -204,6 +206,21 @@
 			</div>
 		</div>
 
+		<div class="section main mt-2xl">
+			<div class="container mt-2xl mb-2xl">
+				<div class="row items-center">
+					<div class="column align-center">
+						<h1 class="max-w-lg text-giga text-center text-white">
+							What are you waiting for? Start your wiki journey today!
+						</h1>
+						<a href="https://hub.wikiforge.net/wiki/Special:RequestPremiumWiki" class="button xl main white mt-lg w-button">
+							Sign up and start my wiki
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="section pb-2xl-m">
 			<div class="container mt-2xl mb-2xl">
 				<div class="row v-l">
@@ -262,7 +279,7 @@
 					</div>
 					<div class="column align-left">
 						<h6 class="max-w-lg mb-xl footer-header">Company</h6>
-						<a href="https://meta.wikiforge.net/wiki/Special:MyLanguage/Help:About_WikiForge" class="mt-md">About</a>
+						<a href="https://hub.wikiforge.net/wiki/Special:MyLanguage/Help:About_WikiForge" class="mt-md">About</a>
 						<!-- None for now -->
 						<!--<a href="#" class="mt-md">Jobs</a>-->
 						<a href="https://blog.wikiforge.net" class="mt-md">Blog</a>
@@ -274,8 +291,8 @@
 					</div>
 					<div class="column align-left">
 						<h6 class="max-w-lg mb-xl footer-header">Resources</h6>
-						<a href="https://meta.wikiforge.net/wiki/Special:MyLanguage/Help:FAQ" class="mt-md">FAQ</a>
-						<a href="https://meta.wikiforge.net/wiki/Special:MyLanguage/Help_center" class="mt-md">Help Center</a>
+						<a href="https://hub.wikiforge.net/wiki/Special:MyLanguage/Help:FAQ" class="mt-md">FAQ</a>
+						<a href="https://hub.wikiforge.net/wiki/Special:MyLanguage/Help_center" class="mt-md">Help Center</a>
 					</div>
 				</div>
 				<div class="border-t mt-xl">
@@ -287,8 +304,8 @@
 						</div>
 						<div class="column align-right">
 							<div class="row">
-								<div><a href="https://meta.wikiforge.net/wiki/Special:MyLanguage/Privacy_Policy">Privacy Policy</a></div>
-								<div><a href="https://meta.wikiforge.net/wiki/Special:MyLanguage/Terms_of_Service" class="ml-lg">Terms and Conditions</a></div>
+								<div><a href="https://hub.wikiforge.net/wiki/Special:MyLanguage/Privacy_Policy">Privacy Policy</a></div>
+								<div><a href="https://hub.wikiforge.net/wiki/Special:MyLanguage/Terms_of_Service" class="ml-lg">Terms and Conditions</a></div>
 							</div>
 						</div>
 					</div>
