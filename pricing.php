@@ -2,14 +2,14 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>WikiForge Pricing and Features</title>
+		<title>WikiForge Pricing</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="keywords" content="wiki, wikis, WikiForge, wiki hosting, premium, knowledge-sharing, collaboration, platform, wiki farm, create, manage, ease, hosting, MediaWiki, customization, team collaboration, organization, sharing knowledge, features, intuitive interface, customize, managing, extensions, skins, personalized wiki, reliable hosting, hosting platform, wiki journey, pricing, features, unleash power, ultimate, premium wiki hosting, ultimate premium wiki hosting platform, join, path to knowledge, forge a path, personal projects, customize your wiki, unique needs, seamlessly, intuitive, interface, effortless management, hassle-free, tools, management, collaborating, content, hosting, streamline, team's full potential, unlock potential, streamline knowledge-sharing, info, contact, Facebook, Twitter, Mastodon, social media" />
 		<meta name="description" content="Create, manage, and collaborate with ease on wikis, powered by WikiForge – the ultimate wiki farm for all your knowledge-sharing needs. Try our premium wiki hosting today." />
 		<meta name="twitter:description" content="Create, manage, and collaborate with ease on wikis, powered by WikiForge – the ultimate wiki farm for all your knowledge-sharing needs. Try our premium wiki hosting today." />
 		<meta property="og:description" content="Create, manage, and collaborate with ease on wikis, powered by WikiForge – the ultimate wiki farm for all your knowledge-sharing needs. Try our premium wiki hosting today." />
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="WikiForge Pricing and Features" />
+		<meta property="og:title" content="WikiForge Pricing" />
 		<meta property="og:site_name" content="WikiForge" />
 		<meta property="og:url" content="https://wikiforge.net/pricing.php" />
 		<meta property="og:locale" content="en_US" />
@@ -64,7 +64,7 @@
 				<div class="row">
 					<div class="column align-center">
 						<h1 class="test-giga text-center">
-							Pricing and features
+							Pricing
 						</h1>
 					</div>
 				</div>
