@@ -9,7 +9,7 @@
 		<meta name="twitter:description" content="Create, manage, and collaborate with ease on wikis, powered by WikiForge – the ultimate wiki farm for all your knowledge-sharing needs. Try our premium wiki hosting today." />
 		<meta property="og:description" content="Create, manage, and collaborate with ease on wikis, powered by WikiForge – the ultimate wiki farm for all your knowledge-sharing needs. Try our premium wiki hosting today." />
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="WikiForge Pricing" />
+		<meta property="og:title" content="WikiForge Pricing and Features" />
 		<meta property="og:site_name" content="WikiForge" />
 		<meta property="og:url" content="https://wikiforge.net/pricing.php" />
 		<meta property="og:locale" content="en_US" />
@@ -44,9 +44,11 @@
 					</div>
 					<div class="column align-right">
 						<div class="row items-center">
-							<a href="https://meta.wikiforge.net/wiki/Special:UserLogin" class="u mr-lg">Log in</a>
-							<a href="https://meta.wikiforge.net/wiki/Special:CreateAccount" class="button main w-button">
-								Sign up
+							<a href="https://wikiforge.net/features.php" class="mr-lg">Features</a>
+							<a class="mr-lg">Pricing</a>
+							<a href="https://hub.wikiforge.net/wiki/Special:UserLogin" class="u mr-lg">Log in</a>
+							<a href="https://hub.wikiforge.net/wiki/Special:RequestPremiumWiki" class="button main w-button">
+								Create your wiki
 								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon mr-md-n ml-md">
 									<line x1="5" y1="12" x2="19" y2="12"></line>
 									<polyline points="12 5 19 12 12 19"></polyline>
@@ -89,91 +91,11 @@
 						<h1 class="max-w-lg text-giga text-center text-white">
 							Start your wiki journey today and enjoy the ease of using WikiForge.
 						</h1>
-						<a href="https://meta.wikiforge.net/wiki/Special:RequestPremiumWiki" class="button xl main white mt-lg w-button">
+						<a href="https://hub.wikiforge.net/wiki/Special:RequestPremiumWiki" class="button xl main white mt-lg w-button">
 							Sign up and start my wiki
 						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="section">
-			<div class="container">
-				<div class="row items-center v-t">
-					<div class="column align-left p-2xl">
-						<h2 class="max-w-lg">
-							Custom domain support
-						</h2>
-						<p class="text-lg">
-							Express and represent yourself with a custom domain. While others charge you for the ability to use a custom domain, we allow it on all our plans. Simply point the domain to us and we'll do the rest.
-						</p>
-					</div>
-					<div class="column align-center p-2xl">
-						<img src="/images/marginalia-5.png" alt="Marginalia 5" class="feature-card" />
-					</div>
-				</div>
-				<div class="row reverse items-center v-t">
-					<div class="column align-left p-2xl">
-						<h2 class="max-w-lg">
-							CirrusSearch (ElasticSearch), out of the box
-						</h2>
-						<p class="text-lg">
-							Use the powerful search engine that organizations like Wikimedia use in order to shift through mountains of data and text. ElasticSearch provides a seamless in-wiki search experience that the default MediaWiki search engine just can't provide.
-						</p>
-					</div>
-					<div class="column align-center p-2xl">
-						<img src="/images/marginalia-8.png" alt="Marginalia 8" class="feature-card" />
-					</div>
-				</div>
-				<div class="row items-center v-t">
-					<div class="column align-left p-2xl">
-						<h2 class="max-w-lg">
-							LDAP, OpenID, SAML, and other SSO solutions supported
-						</h2>
-						<p class="text-lg">
-							Managing accounts can be a hassle, more so in an enterprise enviornment. Don't get fragmented! All plans come with SSO support so that system administrators can effortlessly take the reins of their users, including support for LDAP, OpenID, SAML, and more.
-						</p>
-					</div>
-					<div class="column align-center p-2xl">
-						<img src="/images/marginalia-4.png" alt="Marginalia 4" class="feature-card" />
-					</div>
-				</div>
-				<div class="row reverse items-center v-t">
-					<div class="column align-left p-2xl">
-						<h2 class="max-w-lg">
-							Let professionals do the heavy lifting
-						</h2>
-						<p class="text-lg">
-							Spend less time worrying about server maintenance and upgrades and spend more time relaxing! We handle everything for you and in the background so that you can spend more time focusing on your wiki and organization. 
-						</p>
-					</div>
-					<div class="column align-center p-2xl">
-						<img src="/images/marginalia-6.png" alt="Marginalia 6" class="feature-card" />
-					</div>
-				</div>
-				<div class="row items-center v-t">
-					<div class="column align-left p-2xl">
-						<h2 class="max-w-lg">
-							Tailored solutions around the corner
-						</h2>
-						<p class="text-lg">
-							Need more resources? Need custom extensions? Fear not! Our team of pros can help you at every step of the process. Contact our friendly team and we'll make sure to design custom solutions to fit your needs.
-						</p>
-					</div>
-					<div class="column align-center p-2xl">
-						<img src="/images/marginalia-7.png" alt="Marginalia 7" class="feature-card" />
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="section main mt-2xl">
-			<div class="container mt-2xl mb-2xl">
-				<div class="row items-center">
-					<div class="column align-center">
-						<h1 class="max-w-lg text-giga text-center text-white">
-							What are you waiting for? Start now!
-						</h1>
-						<a href="https://meta.wikiforge.net/wiki/Special:RequestPremiumWiki" class="button xl main white mt-lg w-button">
-							Start my journey!
+						<a href="https://wikiforge.net/features.php" class="button xl main white mt-lg w-button">
+							View our dozens of features
 						</a>
 					</div>
 				</div>
@@ -184,7 +106,7 @@
 			<div class="container mt-2xl mb-2xl">
 				<div class="row v-l">
 					<div class="column align-left">
-						<a href="mailto: info@wikiforge.net" class="u mt-lg">info@wikiforge.net</a>
+						<a href="mailto: support@wikiforge.net" class="u mt-lg">support@wikiforge.net</a>
 						<div class="row mt-lg ml-md-n">
 							<a href="https://www.facebook.com/WikiForge" target="_blank" class="p-md w-inline-block">
 								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
@@ -238,7 +160,7 @@
 					</div>
 					<div class="column align-left">
 						<h6 class="max-w-lg mb-xl footer-header">Company</h6>
-						<div>About</div>
+						<a href="https://hub.wikiforge.net/wiki/Special:MyLanguage/Help:About_WikiForge" class="mt-md">About</a>
 						<!-- None for now -->
 						<!--<a href="#" class="mt-md">Jobs</a>-->
 						<a href="https://blog.wikiforge.net" class="mt-md">Blog</a>
@@ -250,21 +172,21 @@
 					</div>
 					<div class="column align-left">
 						<h6 class="max-w-lg mb-xl footer-header">Resources</h6>
-						<a href="https://meta.wikiforge.net/wiki/Special:MyLanguage/FAQ" class="mt-md">FAQ</a>
-						<a href="https://meta.wikiforge.net/wiki/Special:MyLanguage/Help_center" class="mt-md">Help Center</a>
+						<a href="https://hub.wikiforge.net/wiki/Special:MyLanguage/Help:FAQ" class="mt-md">FAQ</a>
+						<a href="https://hub.wikiforge.net/wiki/Special:MyLanguage/Help_center" class="mt-md">Help Center</a>
 					</div>
 				</div>
 				<div class="border-t mt-xl">
 					<div class="row mt-xl v-l">
 						<div class="column align-left">
 							<div class="muted text-sm">
-								Except where otherwise noted, the content of this site is licensed under a Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+								WikiForge, LLC - All rights reserved
 							</div>
 						</div>
 						<div class="column align-right">
 							<div class="row">
-								<div><a href="https://meta.wikiforge.net/wiki/Special:MyLanguage/Privacy_Policy">Privacy Policy</a></div>
-								<div><a href="https://meta.wikiforge.net/wiki/Special:MyLanguage/Terms_of_Service" class="ml-lg">Terms and Conditions</a></div>
+								<div><a href="https://hub.wikiforge.net/wiki/Special:MyLanguage/Privacy_Policy">Privacy Policy</a></div>
+								<div><a href="https://hub.wikiforge.net/wiki/Special:MyLanguage/Terms_of_Service" class="ml-lg">Terms and Conditions</a></div>
 							</div>
 						</div>
 					</div>
