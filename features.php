@@ -164,7 +164,7 @@
 						<img src="/images/marginalia-11.png" alt="Marginalia 11" class="feature-card" />
 					</div>
 				</div>
-				<div class="row items-center v-t">
+				<div class="row reverse items-center v-t">
 					<div class="column align-left p-2xl">
 						<h2 class="max-w-lg">
 							Hundreds of extensions, at your fingertips
@@ -177,7 +177,7 @@
 						<img src="/images/marginalia-13.png" alt="Marginalia 13" class="feature-card" />
 					</div>
 				</div>
-				<div class="row reverse items-center v-t">
+				<div class="row items-center v-t">
 					<div class="column align-left p-2xl">
 						<h2 class="max-w-lg">
 							Let professionals do the heavy lifting
@@ -190,7 +190,7 @@
 						<img src="/images/marginalia-6.png" alt="Marginalia 6" class="feature-card" />
 					</div>
 				</div>
-				<div class="row items-center v-t">
+				<div class="row reverse items-center v-t">
 					<div class="column align-left p-2xl">
 						<h2 class="max-w-lg">
 							Tailored solutions around the corner
