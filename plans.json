@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Basic",
+		"name": "Standard",
 		"price": {
 			"monthly": 9.99,
 			"yearly": 99.99
@@ -9,16 +9,72 @@
 			"10GB file storage",
 			"Custom domain support",
 			"CirrusSearch/ElasticSearch support",
-			"SSO (Single Sign-On) integration support",
-			"ManageWiki extension: Effortlessly manage popular settings, group rights, namespaces, and hundreds of extensions and skins directly on your wiki."
+			"ManageWiki extension: Effortlessly manage popular settings, group rights, namespaces, and hundreds of extensions and skins directly on your wiki",
+			"VisualEditor and related extensions (such as DiscussionTools)",
+			"Your choice of latest or LTS MediaWiki version",
+			"1 wiki included"
 		],
 		"extraCosts": {
 			"10GB file storage": {
-				"monthly": "($2/month/10GB after that)",
-				"yearly": "($20/year/10GB after that)"
+				"monthly": "($1/month/10GB after that)",
+				"yearly": "($10/year/10GB after that)"
+			},
+			"1 wiki included": {
+				"monthly": "($5/month/per every extra wiki)",
+				"yearly": "($50/year/per every extra wiki)"
 			}
 		},
 		"info": "Get started with our basic plan that offers essential features for your premium wiki."
+	},
+	{
+		"name": "Pro",
+		"price": {
+			"monthly": 14.99,
+			"yearly": 149.99
+		},
+		"features": [
+			"All the features in Standard, plus...",
+			"50GB file storage",
+			"Analytics support (Matomo)",
+			"Cargo and Semantic MediaWiki support",
+			"1 wiki included"
+		],
+		"extraCosts": {
+			"50GB file storage": {
+				"monthly": "($1/month/10GB after that)",
+				"yearly": "($10/year/10GB after that)"
+			},
+			"1 wiki included": {
+				"monthly": "($5/month/per every extra wiki)",
+				"yearly": "($50/year/per every extra wiki)"
+			}
+		},
+		"info": "Unlock more features for your wiki for power-users and professionals."
+	},
+	{
+		"name": "Ultimate",
+		"price": {
+			"monthly": 19.99,
+			"yearly": 199.99
+		},
+		"features": [
+			"All the features in Pro, plus...",
+			"50GB file storage",
+			"SSO (Single Sign-on) integration (LDAP, OIDC, SAML, and more)",
+			"Wider assortment of Semantic MediaWiki extensions",
+			"1 wiki included"
+		],
+		"extraCosts": {
+			"50GB file storage": {
+				"monthly": "($1/month/10GB after that)",
+				"yearly": "($10/year/10GB after that)"
+			},
+			"1 wiki included": {
+				"monthly": "($5/month/per every extra wiki)",
+				"yearly": "($50/year/per every extra wiki)"
+			}
+		},
+		"info": "Unleash the ultimate MediaWiki experience for true power-users and enterprise customers."
 	},
 	{
 		"name": "Dedicated",
@@ -27,24 +83,38 @@
 			"yearly": 289.99
 		},
 		"features": [
-			"50GB file storage",
-			"Custom domain support",
-			"CirrusSearch/ElasticSearch support",
-			"SSO (Single Sign-On) integration support",
-			"ManageWiki extension: Effortlessly manage popular settings, group rights, namespaces, and hundreds of extensions and skins directly on your wiki.",
-			"Dedicated MediaWiki servers (2vCPU / 1GB RAM)"
+			"Everything in the Ultimate plan, plus...",
+			"100GB file storage",
+			"Access to more feature intensive features (such as increasing Loops)",
+			"Higher resilliency",
+			"Dedicated MediaWiki servers (4vCPU / 4GB RAM)",
+			"Dedicated database server on request",
+			"Dedicated caching servers on request",
+			"1 wiki included"
 		],
 		"extraCosts": {
-			"50GB file storage": {
-				"monthly": "($2/month/50GB after that)",
-				"yearly": "($20/year/50GB after that)"
+			"100GB file storage": {
+				"monthly": "($1/month/50GB after that)",
+				"yearly": "($10/year/50GB after that)"
 			},
-			"Dedicated MediaWiki servers (2vCPU / 1GB RAM)": {
+			"Dedicated MediaWiki servers (4vCPU / 4GB RAM)": {
 				"monthly": "($10/month/server for extra servers in a load-balanced cluster)",
 				"yearly": "($100/year/server for extra servers in a load-balanced cluster)"
+			},
+			"Dedicated database server on request": {
+				"monthly": "($10/month/server per server)",
+				"yearly": "($100/year/server per server)"
+			},
+			"Dedicated caching servers on request": {
+				"monthly": "($10/month/server per server)",
+				"yearly": "($100/year/server per server)"
+			},
+			"1 wiki included": {
+				"monthly": "($5/month/per every extra wiki)",
+				"yearly": "($50/year/per every extra wiki)"
 			}
 		},
-		"info": "Upgrade to our dedicated plan for advanced capabilities and dedicated resources. Host your wiki on dedicated MediaWiki servers."
+		"info": "Maximize resillency and speed by upgrading to our dedicated plan for advanced capabilities and dedicated resources. Host your wiki on dedicated MediaWiki servers."
 	},
 	{
 		"name": "Enterprise",
