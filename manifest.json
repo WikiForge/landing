@@ -2,10 +2,10 @@
 	"dir": "ltr",
 	"lang": "en",
 	"name": "WikiForge",
-	"scope": "https://wikiforge.net/",
+	"scope": "https://wikiforge.xyz/",
 	"icons": [
 		{
-			"src": "https://static.wikiforge.net/metawiki/8/88/WikiForge_Logo.svg",
+			"src": "https://static.wikiforge.net/hubwiki/8/88/WikiForge_Logo.svg",
 			"sizes": "any",
 			"type": "image/svg+xml"
 		}
