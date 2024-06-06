@@ -92,19 +92,6 @@
   document.addEventListener('scroll', toggleScrollTop);
 
   /**
-   * Animation on scroll function and init
-   */
-  function aosInit() {
-    AOS.init({
-      duration: 600,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
-    });
-  }
-  window.addEventListener('load', aosInit);
-
-  /**
    * Initiate glightbox
    */
   const glightbox = GLightbox({
@@ -127,11 +114,6 @@
       }
     });
   });
-
-  /**
-   * Initiate Pure Counter
-   */
-  new PureCounter();
 
   /**
    * Init swiper sliders
@@ -169,9 +151,6 @@
         initIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
-        if (typeof aosInit === 'function') {
-          aosInit();
-        }
       }, false);
     });
 
